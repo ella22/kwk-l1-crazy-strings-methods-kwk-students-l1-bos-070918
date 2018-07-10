@@ -5,6 +5,6 @@ def crazy_strings(a,b)
  $b=b.gsub("S","Z").swapcase
   return "#{a} #{b}"
 end 
-  crazy_strings("Hello","Friends")
-  puts "#{$a} #{$b}"
+
+  puts crazy_strings("Hello","Friends")
   
